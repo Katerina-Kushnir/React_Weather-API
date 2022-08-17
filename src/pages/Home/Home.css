@@ -1,0 +1,450 @@
+.css-5nwj3y {
+    justify-content: space-between;
+    padding: 6px 30px;
+    margin-bottom: 30px;
+}
+#light .css-5nwj3y {
+    background: rgba(360, 360, 360, .7);
+}
+#dark .css-5nwj3y {
+    background: rgba(0, 0, 0, .7);
+}
+.css-julti5-MuiSwitch-root {
+    position: absolute !important;
+    top: 8px !important;
+    right: 180px !important;
+}
+.css-zqcytf-MuiButtonGroup-root {
+    position: absolute;
+    right: 100px !important;
+}
+.css-zqcytf-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type),
+.css-zqcytf-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:first-of-type) {
+    width: 34px !important;
+    height: 25px !important;
+    font-size: 12px !important;
+    padding: 0;
+}
+#dark .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #bdbdbd !important;
+}
+#dark .css-1yjjitx-MuiSwitch-track {
+    background-color: #fff;
+}
+.css-s92b0l {
+    padding: 6px 0;
+}
+#root {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.days {
+    display: flex;
+}
+.days > div{
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+}
+.days-temp > p {
+    margin: 0 !important;
+    line-height: 1 !important;
+}
+.days-temp-margin {
+    margin-bottom: 4px !important;
+}
+.days-temp {
+    display: flex;
+    justify-content: center
+}
+.days-temp > div{
+    width: 60px;
+}
+.one-day {
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#light .one-day {
+    background: rgba(360, 360, 360, .8);
+    box-shadow: 0px 0px 6px 2px lavender;
+}
+#dark .one-day {
+    background: rgba(0, 0, 0, .8);
+    box-shadow: 0px 0px 6px 2px rgb(40, 40, 40);
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    margin-top: 10px !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    align-items: flex-end !important;
+    margin-right: 50px;
+    color: #454545 !important;
+}
+#dark .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: white !important;
+}
+#dark .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    color: white !important;
+} 
+#dark .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+    color: white !important;
+}
+#dark .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+}
+#dark .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root,
+#dark .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root,
+#dark .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    color: white !important;
+}
+#dark .css-1smlk3z-MuiPaper-root {
+    background-color: rgb(77, 77, 77) !important;
+    color: white !important;
+}
+.css-1lojo64-MuiTypography-root {
+    text-align: center;
+}
+.css-azeo8y-MuiAvatar-root {
+    margin-right: 20px;
+}
+.homePage {
+    position: relative;
+    z-index: 1;
+}
+.homePageBg {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+#light .homePageBg {
+    background-image: url('../../images/sky.jpg');
+    opacity: .6;
+}
+#dark .homePageBg {
+    background-image: url('../../images/night.jpg');
+    opacity: .9;
+}
+#dark .css-118p9r0-MuiButtonBase-root-MuiBottomNavigationAction-root,
+#dark .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+    color: rgba(360, 360, 360) !important;
+}
+.css-1wnsr1i {
+    border: none !important;
+    border-radius: 8px;
+}
+.waether-hourly {
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    overflow-x: scroll;
+    border-radius: 8px;
+    margin-right: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+#light .waether-hourly {
+    background: rgba(360, 360, 360, .8);
+    box-shadow: 0px 0px 6px 2px lavender;
+}
+#dark .waether-hourly {
+    background: rgba(0, 0, 0, .8);
+    box-shadow: 0px 0px 6px 2px rgb(40, 40, 40);
+}
+.waether-hourly::-webkit-scrollbar {
+    height: 5px; 
+    background-color: #348484;
+    border-radius: 8px;
+}
+/* ползунок скроллбара */
+.waether-hourly::-webkit-scrollbar-thumb {
+    background-color: #348484;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+.waether-hourly::-webkit-scrollbar-thumb:hover {
+    background-color: #818faf;
+}
+.hour {
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+    text-align: center;
+}
+.hour-content {
+    width: 100px;
+}
+.css-16lloyr-MuiBottomNavigation-root {
+    background-color: none !important;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    height: 40px !important;
+}
+#light .css-1smlk3z-MuiPaper-root {
+    background-color: rgba(360, 360, 360, .8) !important;
+}
+#dark .css-1smlk3z-MuiPaper-root {
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+.homeTop {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    height: 50px;
+}
+.search-city {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 120px;
+    grid-template-rows: 50px 1fr;
+}
+.auto-city {
+    padding-left: 16px;
+    border-radius: 4px;
+    z-index: 1;
+}
+#light .auto-city {
+    background: rgba(360, 360, 360, .8);
+}
+#dark .auto-city {
+    background: rgba(0, 0, 0, .8);
+}
+.home-content-right {
+    width: 100%;
+    max-width: 400px;
+}
+.home-content-right-tournament {
+    display: grid;
+    grid-template-columns: 1fr 35px;
+}
+.css-118p9r0-MuiButtonBase-root-MuiBottomNavigationAction-root {
+    align-items: flex-end !important;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-right: 50px !important;
+    padding-top: 5px !important;
+    min-width: 60px !important;
+    max-width: 90px !important;
+}
+.home-content-right-tournament p:first-child {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-top: 6px;
+}
+.home-content-right-tournament p:nth-child(2) {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.home-content-right-tournament p:nth-child(3) {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-bottom: 16px;
+}
+.home-content-right-tournament p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.css-1gh6k7f-MuiBottomNavigationAction-label {
+    display: none !important;
+}
+.tournament b {
+    font-style: italic;
+}
+.tournament-block {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+#light .tournament-block {
+    background: rgba(360, 360, 360, .8);
+    box-shadow: 0px 0px 6px 2px lavender;
+}
+#dark .tournament-block {
+    background: rgba(0, 0, 0, .8);
+    box-shadow: 0px 0px 6px 2px rgb(40, 40, 40);
+}
+.tournament-block::-webkit-scrollbar,
+.favorite-sport::-webkit-scrollbar {
+    width: 5px;
+    height: 25px; 
+    background-color: #348484;
+    border-radius: 8px;
+}
+/* ползунок скроллбара */
+.tournament-block::-webkit-scrollbar-thumb,
+.favorite-sport::-webkit-scrollbar-thumb {
+    background-color: #348484;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+.tournament-block::-webkit-scrollbar-thumb:hover,
+.favorite-sport::-webkit-scrollbar-thumb:hover {
+    background-color: #818faf;
+}
+.hour-content img + p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.favorite-sport {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 0 0 8px8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#light .favorite-sport {
+    background: rgba(360, 360, 360, .8);
+    box-shadow: 0px 0px 6px 2px lavender;
+}
+#dark .favorite-sport {
+    background: rgba(0, 0, 0, .8);
+    box-shadow: 0px 0px 6px 2px rgb(40, 40, 40);
+}
+.favorite-sport-delete {
+    display: flex;
+    justify-content: space-between;
+}
+.favorite-sport b {
+    text-decoration: underline;
+}
+.favorite-sport-header {
+    margin-top: 30px;
+    border-radius: 8px 8px 0 0;
+    padding: 10px;
+}
+#light .favorite-sport-header {
+    background: rgba(360, 360, 360, .8);
+    box-shadow: 0px 0px 6px 2px lavender;
+}
+#dark .favorite-sport-header {
+    background: rgba(0, 0, 0, .8);
+    box-shadow: 0px 0px 6px 2px rgb(40, 40, 40);
+}
+.weather-data-city {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0;
+}
+.weather-data-time {
+    font-size: 28px;
+    margin: 0;
+}
+.weather-data-flex {
+    display: flex;
+    align-items: center;
+}
+.weather-data-temp {
+    margin: 0;
+    font-size: 34px;
+    font-weight: 700;
+}
+.weather-data-icon {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.home-content-left-top {
+    display: flex;
+}
+.weather-day {
+    width: 100%;
+    max-width: 424px;
+    margin-right: 26px;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+.weather-day-left {
+    margin-right: 10px;
+}
+.home-content-favorite-city {
+    display: flex;
+}
+.history-weather {
+    margin-top: 30px;
+}
+.history-weather-name {
+    margin-bottom: 10px;
+}
+.history-weather-date {
+    width: 360px;
+    display: flex;
+    align-items: center;
+}
+.history-weather-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+.history-weather-data {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 4px;
+}
+.days-temp-history {
+    display: flex;
+    align-items: center;
+}
+.days-temp-history-col1 p{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+.days-temp-history-col2 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+}
+.days-temp-history-col3 p, .days-temp-history-wind p {
+    margin: 0;
+    font-size: 18px;
+}
+.days-temp-history-col3 p {
+    margin-left: 20px;
+}
+.history-weather-flex {
+    display: flex;
+    align-items: flex-end;
+}
+.button-save {
+    width: 70px;
+    background-color: #9c9c9c;
+    height: 26px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+}
+.button-save:hover {
+    background-color: #535353;
+    cursor: pointer;
+}
+.button-save:active {
+    background-color: #75995d;
+}
+.favoriteCity-row {
+    display: inline;
+}

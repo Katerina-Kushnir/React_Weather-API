@@ -1,0 +1,70 @@
+.registerForma {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+.css-1t6e9jv-MuiCardActions-root {
+    justify-content: space-between;
+    padding-top: 4px 0 0 !important;
+    margin: 4px 6px 0px 6px;
+}
+.css-16m3jxf-MuiTypography-root {
+    font-size: 2rem;
+    margin-bottom: 0.6em !important;
+    font-size: 18px !important;
+}
+.css-11qr2p8-MuiButtonBase-root-MuiButton-root {
+    background-color: #b3b3b3 !important;
+    width: 140px !important;
+}
+.registerPage {
+    background-image: url('../../images/sky.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    height: auto;
+    max-height: 440px;
+    justify-content: center;
+    background: rgba(360, 360, 360, .8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    padding: 20px 0;
+}
+input {
+    padding: 12px 0 12px 16px;
+    margin: 4px 16px 16px 16px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    outline: none;
+    background: rgba(360, 360, 360, .8);
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-left: 16px;
+}
+.text-form {
+    padding: 0 20px;
+    text-align: center;
+    color: gray;
+}
+#code {
+    margin: 0 auto !important;
+}

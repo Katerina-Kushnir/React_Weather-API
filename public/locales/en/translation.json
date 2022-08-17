@@ -1,0 +1,51 @@
+{
+    "header": {
+        "name": "Katerina Kushnir",
+        "api": "WeatherAPI",
+        "account": "My account",
+        "data": "My data",
+        "firstname": "Firstname",
+        "surname": "Surname",
+        "phone": "Phone",
+        "settings": "Settings",
+        "temp": "Temperature",
+        "tempF": "degree Fahrenheit",
+        "tempC": "degree Celsius",
+        "wind": "Wind speed",
+        "windK": "wind speed in kmh",
+        "windM": "wind speed in mph",
+        "press": "Atmospheric pressure",
+        "save": "save",
+        "logout": "Logout"
+    },
+    "lang": {
+        "en": "en",
+        "ua": "ua"
+    },
+    "city": {
+        "search": "Search",
+        "searchCity": "Search city",
+        "select": "Selected city",
+        "notFound": "City not found",
+        "favorite": "My favorite city"
+    },
+    "calendar": {
+        "dateDesk": "Date desktop"
+    },
+    "weather": {
+        "feelslike": "feelslike",
+        "wind": "wind speed",
+        "press": "pressure",
+        "min": "min",
+        "max": "max",
+        "history": "History weather",
+        "sunrise": "sunrise",
+        "sunset": "sunset",
+        "moonrise": "moonrise",
+        "moonset": "moonset"
+    },
+    "sport": {
+        "allSport": "All sports events in",
+        "favorite": "My favorite sports"
+    }
+}
